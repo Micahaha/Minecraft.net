@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links,
+.Sign-in {
+    list-style: none;
+}
+
+.nav-links li,
+.Sign-in li {
+    display: inline-block;
+}
