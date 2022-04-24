@@ -6,12 +6,34 @@
     padding: 0;
 }
 
-.nav-links,
-.Sign-in {
+header {
     list-style: none;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+header img {
+    height: auto;
+    width: 15%;
+}
+
+.logo {
+    height: auto;
+    width: 15;
+}
+
+nav {
+    text-align: center;
+}
+
+.Sign-in {
+    margin-left: auto;
 }
 
 .nav-links li,
 .Sign-in li {
     display: inline-block;
+    padding: 1rem 0.5rem;
 }
