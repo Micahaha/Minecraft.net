@@ -7,21 +7,18 @@
 }
 
 header {
+    background-image: url(imgs/bg_top.png);
     list-style: none;
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     padding: 0rem 1.5rem 0rem 1.5rem;
 }
 
-header img {
-    height: auto;
-    width: 15%;
-}
-
 .logo {
-    height: auto;
-    width: 15;
+    max-height: 3rem;
+    max-width: 15rem;
+    padding-right: 2rem;
 }
 
 nav {
@@ -29,11 +26,18 @@ nav {
 }
 
 .Sign-in {
-    margin-left: auto;
+    margin-left: 20%;
 }
 
 .nav-links li,
 .Sign-in li {
     display: inline-block;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.2rem;
+}
+
+.nav-links a,
+.Sign-in a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
 }
