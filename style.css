@@ -1,43 +1,113 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-image: url(imgs/bg_top.png);
-    list-style: none;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0rem 1.5rem 0rem 1.5rem;
-}
-
-.logo {
-    max-height: 3rem;
-    max-width: 15rem;
-    padding-right: 2rem;
-}
-
-nav {
-    text-align: center;
-}
-
-.Sign-in {
-    margin-left: 20%;
-}
-
-.nav-links li,
-.Sign-in li {
-    display: inline-block;
-    padding: 1rem 0.2rem;
-}
-
-.nav-links a,
-.Sign-in a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: white;
-}
+                    *,
+                    *::before,
+                    *::after {
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    body {
+                        background-image: url(imgs/bg_main.png);
+                        color: #E0D0D0;
+                    }
+                    
+                    body a {
+                        text-decoration: none;
+                        color: #aaf;
+                    }
+                    
+                    section {
+                        padding: 0 30vh 0 30vh;
+                    }
+                    
+                    header {
+                        background-image: url(imgs/bg_top.png);
+                        background-repeat: repeat-x;
+                        list-style: none;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 0rem 1.5rem 0rem 1.5rem;
+                    }
+                    
+                    footer {
+                        text-align: center;
+                        padding-top: 4vh;
+                    }
+                    
+                    .logo {
+                        max-height: 3rem;
+                        max-width: 15rem;
+                        padding-right: 2rem;
+                    }
+                    
+                    nav {
+                        text-align: center;
+                    }
+                    
+                    header>* {
+                        flex-shrink: 0;
+                    }
+                    
+                    .Sign-in {
+                        margin-left: 20%;
+                    }
+                    
+                    .nav-links li,
+                    .Sign-in li {
+                        display: inline-block;
+                        padding: 1rem 0.2rem;
+                    }
+                    
+                    .nav-links a,
+                    .Sign-in a {
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    .login a {
+                        color: #aaf;
+                    }
+                    
+                    .split-buynow {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        padding-top: 4vh;
+                    }
+                    
+                    .split-socials {
+                        display: grid;
+                        padding-top: 10vh;
+                        grid-template-columns: 1fr 1fr 1fr;
+                    }
+                    
+                    .buy-now {
+                        display: grid;
+                        justify-items: center;
+                        align-items: center;
+                    }
+                    
+                    .buy-now>p {
+                        text-align: center;
+                    }
+                    
+                    .buy-now>img {
+                        min-height: auto;
+                        width: 30vh;
+                    }
+                    
+                    .videoplayer {
+                        display: inline-block;
+                    }
+                    
+                    .introduction>p {
+                        padding-top: 2vh;
+                    }
+                    
+                    .tumblr>p,
+                    .twitter>p,
+                    .facebook>p {
+                        padding-top: 5vh;
+                        padding-right: 5vh;
+                    }
