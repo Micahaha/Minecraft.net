@@ -114,7 +114,25 @@
 
                 .game {
                     display: grid;
+                    padding: 0 6vh  0 6vh;
                     grid-template-columns: 1fr 1fr;
+                }
+
+                .about,
+                .buy  {
+                    padding: 0 !important;
+                }
+
+                .about > * {
+                    padding-top: 1vh;
+                }
+
+                .buy-now > * {
+                    padding-top: 2vh;
+                }
+
+                footer{
+                    padding-top: 4vh;
                 }
                 
                 @media only screen and (max-width: 930px) {
@@ -137,7 +155,7 @@
                         text-align: center;
                     }
                     section {
-                        padding: 0 6vh 0 6vh;
+                        padding: 0 3vh 0 3vh;
                     }
                     .logo {
                         display: none;
@@ -151,5 +169,7 @@
                     p {
                         text-align: center;
                     }
+
+    
                    
                 }
