@@ -111,27 +111,27 @@
                     padding-top: 5vh;
                     padding-right: 5vh;
                 }
-
+                
                 .game {
                     display: grid;
-                    padding: 0 6vh  0 6vh;
+                    padding: 0 6vh 0 6vh;
                     grid-template-columns: 1fr 1fr;
                 }
-
+                
                 .about,
-                .buy  {
+                .buy {
                     padding: 0 !important;
                 }
-
-                .about > * {
+                
+                .about>* {
                     padding-top: 1vh;
                 }
-
-                .buy-now > * {
+                
+                .buy-now>* {
                     padding-top: 2vh;
                 }
-
-                footer{
+                
+                footer {
                     padding-top: 4vh;
                 }
                 
@@ -169,7 +169,22 @@
                     p {
                         text-align: center;
                     }
-
-    
-                   
+                    header {
+                        background-image: url(imgs/bg_top.png);
+                        background-repeat: repeat-x;
+                        list-style: none;
+                        justify-content: center;
+                        display: flex;
+                        position: fixed;
+                        flex-direction: row;
+                        padding: 0rem 1.5rem 0rem 1.5rem;
+                        width: 100%;
+                        height: 4em;
+                    }
+                    .nav-links {
+                        font-size: 2vh;
+                    }
+                    .Sign-in {
+                        display: none;
+                    }
                 }
